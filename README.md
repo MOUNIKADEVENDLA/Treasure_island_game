@@ -21,9 +21,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.") 
-
-#Write your code below this line 👇 
+print("Your mission is to find the treasure.")
 choice1 = input('\nLets get started!\n\nChoose "Left" or "Right"\n').lower()
 if choice1 == "left":
   choice2 = input('\nYou need to reach the castle.Which one do you want to select?\n\n "Swim" or "Boat"\n').lower()
